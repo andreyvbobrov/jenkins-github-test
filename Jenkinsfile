@@ -1,7 +1,7 @@
 node {
   stage('Checkout') {
     checkout scm
-    sh "ls -la"
+    sh "ls -l"
   }
   stage('Syntax') {
     sh "pylint *.py"
