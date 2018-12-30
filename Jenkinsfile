@@ -5,5 +5,6 @@ node {
   }
   stage('Syntax') {
     sh "pylint *.py"
+    sh "env"
   }
 }
