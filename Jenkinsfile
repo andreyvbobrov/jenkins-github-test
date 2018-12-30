@@ -4,6 +4,7 @@ node {
     sh "ls -la"
   }
   stage('Syntax') {
+    sh "env"
     sh "false"
   }
 }
