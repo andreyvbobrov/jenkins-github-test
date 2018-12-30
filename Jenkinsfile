@@ -4,6 +4,6 @@ node {
     sh "ls -la"
   }
   stage('Syntax') {
-    sh "pylint *.py"
+    sh "false"
   }
 }
