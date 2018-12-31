@@ -5,7 +5,7 @@ node {
     sh "False"
   }
   stage('Syntax') {
-    sh "pylint *.py"
     sh "env"
+    sh "false"
   }
 }
